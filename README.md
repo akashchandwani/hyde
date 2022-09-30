@@ -8,18 +8,22 @@ It pairs a prominent sidebar with uncomplicated content.
 
 ## Contents
 
-- [Installation](#installation)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sidebar description](#sidebar-description)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-  - [Disqus](#disqus)
+- [Hyde](#hyde)
+  - [Contents](#contents)
+  - [Installation](#installation)
+    - [Quick Start](#quick-start)
+    - [Standard Installation](#standard-installation)
+  - [Options](#options)
+    - [Sidebar menu](#sidebar-menu)
+    - [Sidebar description](#sidebar-description)
+    - [Sticky sidebar content](#sticky-sidebar-content)
+    - [Themes](#themes)
+    - [Reverse layout](#reverse-layout)
+    - [Disqus](#disqus)
   - [Google Analytics](#google-analytics)
-- [Author](#author)
-- [Ported by](#ported-by)
-- [License](#license)
+  - [Author](#author)
+  - [Ported By](#ported-by)
+  - [License](#license)
 
 
 ## Installation
@@ -105,7 +109,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 ```html
 <!-- Default sidebar -->
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     ...
   </div>
 </div>
